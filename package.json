@@ -1,0 +1,27 @@
+{
+  "name": "devoloper-connecter-practice-project",
+  "version": "1.0.0",
+  "description": "Social network for developers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirstenwerner/developer-connecter-MERN-practice-project.git"
+  },
+  "author": "Kirsten Werner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kirstenwerner/developer-connecter-MERN-practice-project/issues"
+  },
+  "homepage": "https://github.com/kirstenwerner/developer-connecter-MERN-practice-project#readme",
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
